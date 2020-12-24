@@ -1,0 +1,35 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/annaminkova/GitHub/ProgrBmstu3sem/lab07
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /Users/annaminkova/.hunter
+-- [hunter] [ Hunter-ID: 35fa55b | Toolchain-ID: 715fc93 | Config-ID: e6339d5 ]
+-- [hunter] GTEST_ROOT: /Users/annaminkova/.hunter/_Base/35fa55b/715fc93/e6339d5/Install (ver.: 1.10.0)
+-- [hunter] GRPC_ROOT: /Users/annaminkova/.hunter/_Base/35fa55b/715fc93/e6339d5/Install (ver.: 1.31.0-p0)
+CMake Warning (dev) at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (Threads)
+  does not match the name of the calling package (absl).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/FindThreads.cmake:234 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /Users/annaminkova/.hunter/_Base/35fa55b/715fc93/e6339d5/Install/lib/cmake/absl/abslConfig.cmake:3 (include)
+  /Users/annaminkova/.hunter/_Base/35fa55b/715fc93/e6339d5/Install/lib/cmake/grpc/gRPCConfig.cmake:18 (find_package)
+  CMakeLists.txt:32 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- [hunter] PROTOBUF_ROOT: /Users/annaminkova/.hunter/_Base/35fa55b/715fc93/e6339d5/Install (ver.: 3.12.4-p1)
+-- Configuring done
+CMake Error at CMakeLists.txt:88 (add_executable):
+  Cannot find source file:
+
+    /Users/annaminkova/GitHub/ProgrBmstu3sem/lab07/sources/main.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:88 (add_executable):
+  No SOURCES given to target: grpc_service
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

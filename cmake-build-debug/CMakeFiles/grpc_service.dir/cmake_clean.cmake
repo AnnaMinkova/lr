@@ -1,0 +1,34 @@
+file(REMOVE_RECURSE
+  "../ccpkg/echo.grpc.pb.cc"
+  "../ccpkg/echo.grpc.pb.h"
+  "../ccpkg/echo.pb.cc"
+  "../ccpkg/echo.pb.h"
+  "../ccpkg/google/api/annotations.grpc.pb.cc"
+  "../ccpkg/google/api/annotations.grpc.pb.h"
+  "../ccpkg/google/api/annotations.pb.cc"
+  "../ccpkg/google/api/annotations.pb.h"
+  "../ccpkg/google/api/http.grpc.pb.cc"
+  "../ccpkg/google/api/http.grpc.pb.h"
+  "../ccpkg/google/api/http.pb.cc"
+  "../ccpkg/google/api/http.pb.h"
+  "../ccpkg/google/rpc/status.grpc.pb.cc"
+  "../ccpkg/google/rpc/status.grpc.pb.h"
+  "../ccpkg/google/rpc/status.pb.cc"
+  "../ccpkg/google/rpc/status.pb.h"
+  "CMakeFiles/grpc_service.dir/ccpkg/echo.grpc.pb.cc.o"
+  "CMakeFiles/grpc_service.dir/ccpkg/echo.pb.cc.o"
+  "CMakeFiles/grpc_service.dir/ccpkg/google/api/annotations.grpc.pb.cc.o"
+  "CMakeFiles/grpc_service.dir/ccpkg/google/api/annotations.pb.cc.o"
+  "CMakeFiles/grpc_service.dir/ccpkg/google/api/http.grpc.pb.cc.o"
+  "CMakeFiles/grpc_service.dir/ccpkg/google/api/http.pb.cc.o"
+  "CMakeFiles/grpc_service.dir/ccpkg/google/rpc/status.grpc.pb.cc.o"
+  "CMakeFiles/grpc_service.dir/ccpkg/google/rpc/status.pb.cc.o"
+  "CMakeFiles/grpc_service.dir/sources/source.cpp.o"
+  "grpc_service"
+  "grpc_service.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/grpc_service.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
